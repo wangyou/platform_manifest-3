@@ -381,7 +381,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
 
-  <project path="Motorola-OMAP4-CM/proprietary_vendor_motorola" name="vendor_motorola" remote="github" revision="cm-10.2" groups="vendor" />
+  <project path="vendor_motorola" name="Motorola-OMAP4-CM/proprietary_vendor_motorola" remote="github" revision="cm-10.2" groups="vendor" />
 
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
