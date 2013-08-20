@@ -4,22 +4,29 @@
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
+
   <remote name="aosp"
-          fetch="https://android.googlesource.com/"
-          review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
+
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
+
   <remote name="github"
           fetch="https://github.com/" />
+
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
-  <default revision="cm-10.2"
-          sync-c="true"
-          sync-j="4"
-          remote="cm" />
+
+
+  <default revision="refs/heads/cm-10.2"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" revision="jb43" />
   <project path="build" name="platform_build" remote="vanir" revision="jb43" groups="pdk">
@@ -29,7 +36,7 @@
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="vanir" revision="jb43" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="cts" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
   <project path="device/common" name="android_device_common" groups="pdk" />
