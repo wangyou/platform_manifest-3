@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="vanir"
-          fetch="https://github.com/VanirAOSP/"
+          fetch="https://github.com/VanirAOSP"
           review="vaniraosp.goo.im" />
 
   <remote name="aosp"
@@ -14,13 +14,13 @@
           review="review.cyanogenmod.org" />
 
   <remote name="cfx"
-          fetch="https://bitbucket.org/codefirex/" />
+          fetch="https://bitbucket.org/codefirex" />
 
   <remote name="github"
-          fetch="https://github.com/" />
+          fetch="https://github.com" />
 
   <remote name="linaro"
-          fetch="git://android.git.linaro.org/" />
+          fetch="git://android.git.linaro.org" />
 
 
   <default revision="refs/heads/cm-10.2"
