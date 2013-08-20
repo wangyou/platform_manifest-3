@@ -6,12 +6,12 @@
           review="vaniraosp.goo.im" />
 
   <remote name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com" />
 
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
-          review="review.cyanogenmod.com" />
+          review="review.cyanogenmod.org" />
 
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
