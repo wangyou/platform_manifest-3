@@ -24,7 +24,7 @@
 
 
   <default revision="refs/heads/cm-10.2"
-           remote="github"
+           remote="cm"
            sync-c="true"
            sync-j="4" />
 
