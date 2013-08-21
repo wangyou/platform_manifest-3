@@ -9,9 +9,6 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <remote name="private"
-           fetch="ssh://git@github.com" />
-
   <remote name="gh"
            fetch="git://github.com/" />
 
