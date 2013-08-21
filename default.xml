@@ -6,11 +6,11 @@
            review="android-review.googlesource.com" />
 
   <remote name="github"
-           fetch=".."
+           fetch="git://github.com"
            review="review.cyanogenmod.org" />
 
   <remote name="gh"
-           fetch="git://github.com/" />
+           fetch="git://github.com" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
