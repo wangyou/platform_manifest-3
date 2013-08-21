@@ -22,7 +22,6 @@
   <remote name="linaro"
           fetch="git://android.git.linaro.org" />
 
-
   <default revision="refs/heads/cm-10.2"
            remote="cm"
            sync-c="true"
