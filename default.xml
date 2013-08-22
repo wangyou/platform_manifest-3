@@ -7,10 +7,6 @@
 
   <remote name="github"
            fetch="git://github.com"
-           review="review.cyanogenmod.org" />
-
-  <remote name="gh"
-           fetch="git://github.com" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -414,8 +410,8 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="gh" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="gh" revision="cm-10.2" />
-  <project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="gh" revision="cm-10.2" />
-  <project name="Motorola-OMAP4-CM/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-10.2" />
+  <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" />
+  <project name="CyanogenMod/android_device_motorola_omap4-common" path="device/motorola/omap4-common" />
+  <project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" />
+  <project name="Motorola-OMAP4-CM/proprietary_vendor_motorola" path="vendor/motorola" />
 </manifest>
