@@ -32,20 +32,13 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
-  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
-  <project path="kernel/google/msm" name="android_kernel_google_msm" />
-  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="jb43" />
-  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="jb43" />
-  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb43" />
   <project path="device/common" name="android_device_common" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
+
   <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" />
   <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-10.2" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="jb43" />
