@@ -28,7 +28,7 @@
   </project>
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="vanir" revision="jb43" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" revision="03667f68f8b32c3abf5ac006c2b4776159b71521" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
@@ -38,10 +38,10 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-
   <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" />
-  <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-10.2" />
+  <project path="device/motorola/edison" name="STS-Dev-Team/android_device_motorola_edison" remote="github" revision="cm-10.2" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="jb43" />
+  <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb43" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
@@ -263,7 +263,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb43" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="jb43" groups="pdk" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="vanir" revision="jb43" />
-  <!--project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="vanir" revision="jb43" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="jb43" />
@@ -274,7 +274,7 @@
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" /-->
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="vanir" revision="jb43" groups="pdk" />
   <project path="hardware/samsung" name="android_hardware_samsung" />
   <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" remote="vanir" revision="jb43" />
@@ -380,10 +380,11 @@
   <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb43" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  
-  <project name="Motorola-OMAP4-CM/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2" groups="vendor" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
+  
+  <project name="Motorola-OMAP4-CM/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2" groups="vendor" />
+
 </manifest>
