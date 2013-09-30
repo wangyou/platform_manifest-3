@@ -32,13 +32,14 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r3" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
-  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
-  <project path="kernel/google/msm" name="android_kernel_google_msm" />
+  <project path="kernel/google/msm" name="android_kernel_google_msm" revision="d62863bf16e981a875b0386b8d1e3f13c34d73bc" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="jb43" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="jb43" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb43" />
+  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="jb43" groups="device" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" />
+  <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="jb43" groups="tf700_device" />
+  <project path="kernel/asus/tf700t" name="android_kernel_asus_tf700t" groups="tf700_device" />
   <project path="device/bn/common" name="device_bn_common" remote="vanir" revision="jb43" groups="Ovation_device" />
   <project path="kernel/bn/omap" name="android_kernel_bn_omap" groups="Ovation_device" />
   <project path="device/bn/ovation" name="android_device_bn_ovation" groups="Ovation_device" />
@@ -66,14 +67,13 @@
   <project path="device/lge/e980" name="android_device_lge_e980" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="jb43" />
   <project path="kernel/lge/gproj" name="lge-kernel-gproj" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="kernel/lge/p880" name="mzhou/lge-kernel-p880-cyanogenmod" remote="github" revision="cm-10.2" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
   <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="jb43" />
-  <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="vanir" revision="jb43" groups="GS3_device" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
@@ -221,7 +221,6 @@
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libusb" name="android_external_libusb" />
-<!--  <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" remote="aosp" revision="refs/tags/android-4.3_r3" />-->
   <project path="external/libusb-compat" name="android_external_libusb-compat" />
   <project path="external/libvorbis" name="android_external_libvorbis" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
@@ -479,11 +478,12 @@
 <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-10.2" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-10.2" />
-<!--  <project path="vendor/csr" name="TheMuppets/proprietary_vendor_csr" remote="github" revision="cm-10.2" /> -->
+<!-- <project path="vendor/csr" name="TheMuppets/proprietary_vendor_csr" remote="github" revision="cm-10.2" /> -->
   <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-10.2" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-10.2" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-10.2" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-10.2" />
-<!--  <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" /> -->
+<!-- <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" /> -->
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
+
 </manifest>
